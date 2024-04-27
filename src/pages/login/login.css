@@ -1,0 +1,110 @@
+/* LandingPage.css */
+
+.wrapper {
+    margin-top: 50px;
+    display: flex;
+    align-items: center; 
+  }
+  
+  .logo {
+    margin-right: 50px;
+    margin-left: 60px;
+    width: 450px;
+    height: 360px;
+  }
+  
+  .container {
+    flex-grow: 1; 
+    display: flex;
+    justify-content: center; 
+    margin-top: 50px;
+  }
+  
+  .login-form {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login-form-logo {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .login-form-logo img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .login-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .login-form h3 {
+    text-align: center;
+    font-weight: lighter;
+  }
+  
+  .login-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form input {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 80px;
+  }
+  
+  .forgot-password {
+    margin-top: 27px;
+    color: #797979;
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
+  .forgot-password span {
+    color: rgb(0, 157, 255);
+    cursor: pointer;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: none;
+}
+
+.login-container button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 80px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-container button:hover {
+  background-color: #0056b3;
+}
+
+.login-container button:active {
+  background-color: #004080;
+}
+
+.login-container button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.4);
+}
+
+
+  
