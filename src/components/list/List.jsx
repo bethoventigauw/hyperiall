@@ -152,7 +152,7 @@ const rows = [
   {
     id: 48820015619,
     product: "Kerikil",
-    img: "/assets/kerikil.webp",
+    img: "/assets/kerikil.jpg",
     customer: "Asep Surasep",
     date: "20th March",
     amount: 1800,
@@ -161,9 +161,9 @@ const rows = [
   },
   {
     id: 2557766001527,
-    product: "3 IN 1 Bag Set",
-    img: "/assets/bag.jpg",
-    customer: "Madison Anthony",
+    product: "Pagar",
+    img: "/assets/pagar.jpg",
+    customer: "Rafael stroick",
     date: "3rd October",
     amount: 20,
     method: "Cash on Delivery",
