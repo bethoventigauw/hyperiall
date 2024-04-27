@@ -45,7 +45,7 @@ const Navbar = () => {
             <ListOutlinedIcon className="icon" />
           </div>
           <div className="item">
-            <img src="/assets/person.jpg" alt="" className="profileImg" />
+            <img src="/assets/navbarprofile.jpg" alt="" className="profileImg" />
           </div>
         </div>
       </div>
