@@ -10,15 +10,6 @@ import { userInputs, productInputs } from "./formData";
 import "./style/dark.scss";
 import { useContext } from "react";
 import { DarkModeContext } from "./context/darkModeContext";
-import "./App.css";
-
-function App() {
-  return (
-    <div className="app">
-      <RouterProvider router={router} />
-    </div>
-  );
-}
 
 const router = createBrowserRouter([
   {
