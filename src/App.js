@@ -13,7 +13,7 @@ import { DarkModeContext } from "./context/darkModeContext";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/"
     element: <Login />,
   },
   {
