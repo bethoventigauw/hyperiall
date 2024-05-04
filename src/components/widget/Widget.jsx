@@ -4,7 +4,7 @@ import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import MonetizationOnOutlinedIcon from "@mui/icons-material/MonetizationOnOutlined";
 import AccountBalanceWalletOutlinedIcon from "@mui/icons-material/AccountBalanceWalletOutlined";
-import "./widget.scss";
+import "./widget.css";
 
 const Widget = ({ type }) => {
   let data;
@@ -15,7 +15,7 @@ const Widget = ({ type }) => {
   switch (type) {
     case "customer":
       data = {
-        title: "CUSTOMERS",
+        title: "SALES",
         isMoney: false,
         link: "See details",
         icon: (
