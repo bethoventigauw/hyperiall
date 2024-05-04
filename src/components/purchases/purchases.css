@@ -1,3 +1,7 @@
-.tableForm{
-    display: flex;
+.vendorstable{
+    color: #616161;
+}
+.tablecell{
+    background-color: whitesmoke;
+    color: #616161;
 }

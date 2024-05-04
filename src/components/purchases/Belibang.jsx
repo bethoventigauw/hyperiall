@@ -22,17 +22,17 @@ const rows = [
 
 export default function BasicTable() {
     return (
-      <div className='tableForm'>
-        <TableContainer component={Paper}>
+      <div className='vendorstable'>
+        <TableContainer className = 'tablecontainer' component={Paper}>
           <Table sx={{ minWidth: 650 }} aria-label="simple table">
             <TableHead>
               <TableRow>
                 <TableCell>Supplier Name</TableCell>
-                <TableCell align="right">Product</TableCell>
-                <TableCell align="right">Contact Number&nbsp;</TableCell>
-                <TableCell align="right">Email&nbsp;</TableCell>
-                <TableCell align="right">Type&nbsp;</TableCell>
-                <TableCell align="right">On The Way&nbsp;</TableCell>
+                <TableCell className='tablecell' align="right">Product</TableCell>
+                <TableCell className='tablecell' align="right">Contact Number&nbsp;</TableCell>
+                <TableCell className='tablecell' align="right">Email&nbsp;</TableCell>
+                <TableCell className='tablecell' align="right">Type&nbsp;</TableCell>
+                <TableCell className='tablecell' align="right">On The Way&nbsp;</TableCell>
               </TableRow>
             </TableHead>
             <TableBody>
@@ -44,11 +44,11 @@ export default function BasicTable() {
                   <TableCell component="th" scope="row">
                     {row.name}
                   </TableCell>
-                  <TableCell align="right">{row.product}</TableCell>
-                  <TableCell align="right">{row.contactNum}</TableCell>
-                  <TableCell align="right">{row.email}</TableCell>
-                  <TableCell align="right">{row.type}</TableCell>
-                  <TableCell align="right">{row.otw}</TableCell>
+                  <TableCell className='tablecell' align="right">{row.product}</TableCell>
+                  <TableCell className='tablecell' align="right">{row.contactNum}</TableCell>
+                  <TableCell className='tablecell' align="right">{row.email}</TableCell>
+                  <TableCell className='tablecell' align="right">{row.type}</TableCell>
+                  <TableCell className='tablecell' align="right">{row.otw}</TableCell>
                 </TableRow>
               ))}
             </TableBody>
