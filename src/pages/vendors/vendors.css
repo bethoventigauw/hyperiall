@@ -15,7 +15,7 @@
     box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
     padding: 20px;
     margin: 20px;
-}                
+}
 
 .datavend{
     width: 100%;
@@ -26,7 +26,7 @@
     align-items: center;
     justify-content: space-between;
 }
-                
+
 .link{
     color: green;
     font-size: 16px;

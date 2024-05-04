@@ -8,9 +8,9 @@ const Settings = () => {
   return (
     <div className='accBar'>
         <Sidebar/>
-        <span>Account</span>
         <div className='profileBox'>
             <Navbar/>
+            <span>Account</span>
             <Account/>
         </div>
     </div>
