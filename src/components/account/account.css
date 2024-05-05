@@ -1,7 +1,25 @@
-.accountField{
+.accountField {
+    display: flex;
+    justify-content: flex-start; /* Menempatkan komponen di sebelah kiri */
+    align-items: center;
+    height: 100%;
+    padding-left: 20px; /* Untuk memberikan sedikit jarak dari tepi kiri */
+  }
+  
+  .boxField {
+    padding: 20px;
+  }
+  
+  .textField {
+    display: flex;
     flex-direction: column;
-}
-
-.boxfield{
-    display: block;
-}
+  }
+  
+  .MuiTextField-root {
+    margin-bottom: 15px;
+  }
+  
+  .MuiFormLabel-root {
+    font-weight: bold;
+  }
+  

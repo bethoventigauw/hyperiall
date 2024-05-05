@@ -11,7 +11,9 @@ const Settings = () => {
         <div className='profileBox'>
             <Navbar/>
             <span>Account</span>
-            <Account/>
+            <div className='databox'>
+              <Account/>
+            </div>
         </div>
     </div>
   )

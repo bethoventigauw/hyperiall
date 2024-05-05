@@ -1,7 +1,23 @@
-.accBar{
-    left: auto;
-}
-
-.profileBox{
-    display: block;
-}
+.accBar {
+    display: flex;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .profileBox {
+    flex: 6; /* Mengambil sisa ruang yang tersedia */
+  }
+  
+  .profileBox span {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .databox {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
