@@ -14,9 +14,9 @@ const Beliinbang = () => {
                     <Navbar/>
                     <div className='vendorstable'>
                         <div className='datavend'>
-                            <span>Supplier</span>
+                            <h1>Supplier</h1>
                             <Link to="/products/productId/new" style={{ textDecoration: "none" }}>
-                                <span className="link">Add New </span>
+                                <span className="link">Add Supplier</span>
                             </Link>
                         </div>
                         <BasicTable/>

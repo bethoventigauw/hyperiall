@@ -1,23 +1,28 @@
-.accBar {
-    display: flex;
-    height: 100%;
-    width: 100%;
-  }
-  
-  .profileBox {
-    flex: 6; /* Mengambil sisa ruang yang tersedia */
-  }
-  
-  .profileBox span {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-  
-  .databox {
-    background-color: #f9f9f9;
-    padding: 20px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-  }
-  
+.settings{
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.setNavs{
+  flex: 6;
+  background-color: whitesmoke;
+  color: #616161;
+}
+
+.formTable{
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+  padding: 20px;
+  margin: 20px;
+}                
+
+.dataUser{
+  width: 100%;
+  font-size: 24px;
+  color: #616161;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
