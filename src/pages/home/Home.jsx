@@ -5,7 +5,7 @@ import List from "../../components/list/List";
 import Navbar from "../../components/navbar/Navbar";
 import Sidebar from "../../components/sidebar/Sidebar";
 import Widget from "../../components/widget/Widget";
-import "./home.scss";
+import "./home.css";
 
 const Home = () => {
   return (

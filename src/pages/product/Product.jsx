@@ -1,7 +1,7 @@
 import React from "react";
 import Sidebar from "../../components/sidebar/Sidebar";
 import Navbar from "../../components/navbar/Navbar";
-import "./product.scss";
+import "./product.css";
 import Productable from "../../components/productable/Productable";
 import { Link } from "react-router-dom";
 
