@@ -14,7 +14,7 @@ const Porder = () => {
                     <Navbar/>
                     <div className='orderPage'>
                         <span>Purchase Order</span>
-                        <div className='overalOrder'>
+                        <div className='overallOrder'>
                             <span>Overall Order</span>
                             <Overall/>
                         </div>

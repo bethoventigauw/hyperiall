@@ -1,11 +1,37 @@
-.purchaseorder{
+.purchaseorder {
     display: flex;
-    height: 100%;
+    height: 100vh; /* Menggunakan viewport height untuk mengisi seluruh tinggi layar */
     width: 100%;
 }
 
-.ordercontainer{
+.ordercontainer {
     flex: 6;
     background-color: whitesmoke;
     color: #616161;
+}
+
+.orderPage {
+    margin-top: 20px;
+}
+
+.overallOrder, .tableOrder {
+    margin-top: 20px;
+    background-color: white; 
+    padding: 20px; /* Memberikan jarak antara konten dengan batas container */
+    border-radius: 8px; /* Memberikan sudut yang lebih lembut */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan untuk memberikan efek ketinggian */
+}
+
+/* Menerapkan gaya ke judul di dalam komponen */
+.overallOrder span, .tableOrder span {
+    font-size: 20px; /* Ukuran font judul */
+    font-weight: bold; /* Ketebalan font judul */
+    margin-bottom: 10px; /* Memberikan jarak bawah dari judul */
+}
+
+/* Menambahkan gaya ke judul halaman */
+.orderPage span {
+    font-size: 24px; /* Ukuran font judul halaman */
+    font-weight: bold; /* Ketebalan font judul halaman */
+    color: #333; /* Warna teks judul yang lebih gelap */
 }

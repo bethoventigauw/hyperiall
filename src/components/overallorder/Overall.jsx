@@ -8,32 +8,32 @@ const Overall = () => (
             <Col span={6}>
             <Card title="Total Order" bordered={false}>
                 <div className='totalOrder'>
-                    37
-                    Last 7 Days
+                    <p>37</p>
+                    <p>Last 7 Days</p>
                 </div>
             </Card>
             </Col>
             <Col span={6}>
             <Card title="Total Received" bordered={false}>
                 <div className='totalReceived'>
-                    32
-                    Last 7 Days
+                    <p>32</p>
+                    <p>Last 7 Days</p>
                 </div>
             </Card>
             </Col>
             <Col span={6}>
             <Card title="Total Returned" bordered={false}>
                 <div className='totalReturned'>
-                    5
-                    Last 7 Days
+                    <p>5</p>
+                    <p>Last 7 Days</p>
                 </div>
             </Card>
             </Col>
             <Col span={6}>
             <Card title="On The Way" bordered={false}>
                 <div className='otw'>
-                    12
-                    Ordered
+                    <p>12</p>
+                    <p>Ordered</p>
                 </div>
             </Card>
             </Col>
