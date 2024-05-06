@@ -15,25 +15,43 @@ const Overall = () => (
             </Col>
             <Col span={6}>
             <Card title="Total Received" bordered={false}>
-                <div className='totalReceived'>
-                    <p>32</p>
-                    <p>Last 7 Days</p>
+            <div className="content-wrapper">
+                    <div className="content-column">
+                        <p>32</p>
+                        <p>Last 7 Days</p>
+                    </div>
+                    <div className="content-column">
+                        <p>Rp.250.000</p>
+                        <p>Revenue</p>
+                    </div>
                 </div>
             </Card>
             </Col>
             <Col span={6}>
             <Card title="Total Returned" bordered={false}>
-                <div className='totalReturned'>
-                    <p>5</p>
-                    <p>Last 7 Days</p>
+            <div className="content-wrapper">
+                    <div className="content-column">
+                        <p>5</p>
+                        <p>Last 7 Days</p>
+                    </div>
+                    <div className="content-column">
+                        <p>Rp.25000</p>
+                        <p>Cost</p>
+                    </div>
                 </div>
             </Card>
             </Col>
             <Col span={6}>
             <Card title="On The Way" bordered={false}>
-                <div className='otw'>
-                    <p>12</p>
-                    <p>Ordered</p>
+            <div className="content-wrapper">
+                    <div className="content-column">
+                        <p>12</p>
+                        <p>Last 7 Days</p>
+                    </div>
+                    <div className="content-column">
+                        <p>Rp.15000</p>
+                        <p>Cost</p>
+                    </div>
                 </div>
             </Card>
             </Col>
