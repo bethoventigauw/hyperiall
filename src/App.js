@@ -12,6 +12,7 @@ import { useContext } from "react";
 import { DarkModeContext } from "./context/darkModeContext";
 import Beliinbang from "./pages/purchasevendors/Beliinbang";
 import Settings from "./pages/settings/Settings";
+import Porder from "./pages/purchaseorders/Porder";
 
 const router = createBrowserRouter([
   {
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
   {
     path: "/inventory",
     element: <Product />,
+  },
+  {
+    path: "/order",
+    element: <Porder />,
   },
   {
     path: "/settings",

@@ -48,10 +48,12 @@ const Sidebar = () => {
               <span>Inventory</span>
             </li>
           </Link>
-            <li>
-              <InsertChartOutlinedSharpIcon className="icon" />
-              <span>Projects</span>
-            </li>
+          <Link to = '/order' style={{ textDecoration: "none" }}>
+              <li>
+                <InsertChartOutlinedSharpIcon className="icon" />
+                <span>Order</span>
+              </li>
+          </Link>
           <Link to = "/settings" style={{ textDecoration: "none" }}>
             <li>
               <SettingsOutlinedIcon className="icon" />
