@@ -24,7 +24,7 @@ const router = createBrowserRouter([
     element: <Login />,
   },
   {
-    path : "/purchasevendors",
+    path : "/vendor",
     element: <Beliinbang />
   },
   {
@@ -44,7 +44,7 @@ const router = createBrowserRouter([
     element: <Product />,
   },
   {
-    path: "/order",
+    path: "/orders",
     element: <Porder />,
   },
   {

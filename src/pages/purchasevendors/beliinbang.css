@@ -14,8 +14,13 @@
     -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
     box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
     padding: 20px;
-    margin: 20px;
+    margin-top:20px;
 }                
+
+.vendorstable span {
+    font-size: 24px;
+    color: #333;
+}
 
 .datavend{
     width: 100%;
@@ -25,6 +30,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.datavend span{
+    font-size: 20px;
+    font-weight: bold; 
+    color: #333;
 }
 
 .link{
