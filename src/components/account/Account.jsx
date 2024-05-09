@@ -12,16 +12,16 @@ import {
 const { Option } = Select;
 const residences = [
   {
-    value: 'zhejiang',
-    label: 'Zhejiang',
+    value: 'bojongsoang',
+    label: 'bojongsoang',
     children: [
       {
-        value: 'hangzhou',
-        label: 'Hangzhou',
+        value: 'bandung',
+        label: 'bandung',
         children: [
           {
-            value: 'xihu',
-            label: 'West Lake',
+            value: 'Indonesia',
+            label: 'Indonesia',
           },
         ],
       },
@@ -109,7 +109,7 @@ const App = () => {
       name="register"
       onFinish={onFinish}
       initialValues={{
-        residence: ['zhejiang', 'hangzhou', 'xihu'],
+        residence: ['indonesia', 'malaysia', 'bekasi'],
         prefix: '62',
       }}
       style={{

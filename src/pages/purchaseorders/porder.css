@@ -35,3 +35,9 @@
     font-weight: bold; /* Ketebalan font judul halaman */
     color: #333; /* Warna teks judul yang lebih gelap */
 }
+
+.addProduct {
+    display: grid;
+    justify-content:end ;
+    padding: 5px;
+}

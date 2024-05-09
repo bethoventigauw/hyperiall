@@ -10,7 +10,7 @@ import { userInputs, productInputs } from "./formData";
 import "./style/dark.scss";
 import { useContext } from "react";
 import { DarkModeContext } from "./context/darkModeContext";
-import Beliinbang from "./pages/purchasevendors/Beliinbang";
+import Pvendor from "./pages/purchasevendors/Pvendor";
 import Settings from "./pages/settings/Settings";
 import Porder from "./pages/purchaseorders/Porder";
 
@@ -25,7 +25,7 @@ const router = createBrowserRouter([
   },
   {
     path : "/vendor",
-    element: <Beliinbang />
+    element: <Pvendor />
   },
   {
     path: "/users/:userId",

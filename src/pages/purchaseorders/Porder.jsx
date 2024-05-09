@@ -4,6 +4,7 @@ import Sidebar from '../../components/sidebar/Sidebar';
 import Order from '../../components/order/Order'
 import Overall from '../../components/overallorder/Overall';
 import './porder.css'
+import Button from '@mui/material/Button';
 
 const Porder = () => {
     return (
@@ -20,6 +21,9 @@ const Porder = () => {
                         </div>
                         <div className='tableOrder'>
                             <span>Order</span>
+                            <div className='addProduct'>
+                                <Button variant="contained">Add Product</Button>
+                            </div>
                             <Order/>
                         </div>
                     </div>

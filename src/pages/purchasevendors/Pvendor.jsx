@@ -2,9 +2,10 @@ import React from 'react'
 import BasicTable from "../../components/purchases/Belibang"
 import Navbar from "../../components/navbar/Navbar";
 import Sidebar from '../../components/sidebar/Sidebar';
-import './beliinbang.css'
+import './pvendor.css'
+import Button from '@mui/material/Button';
 
-const Beliinbang = () => {
+const Pvendor = () => {
     return (
         <div>
             <div className='purchasevend'>
@@ -16,6 +17,9 @@ const Beliinbang = () => {
                         <div className='datavend'>
                             <span>Supplier</span>
                         </div>
+                            <div className='addSupplier'>
+                                <Button variant="contained">Add Supplier</Button>
+                            </div>
                         <BasicTable/>
                     </div>
                 </div>
@@ -23,4 +27,4 @@ const Beliinbang = () => {
         </div>
     );
 };
-export default Beliinbang;
+export default Pvendor;
