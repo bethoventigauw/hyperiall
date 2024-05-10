@@ -13,6 +13,7 @@ import { DarkModeContext } from "./context/darkModeContext";
 import Pvendor from "./pages/purchasevendors/Pvendor";
 import Settings from "./pages/settings/Settings";
 import Porder from "./pages/purchaseorders/Porder";
+import NewSupplier from "./pages/newSupplier/NewSupplier";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
   {
     path : "/vendor",
     element: <Pvendor />
+  },
+  {
+    path : "/addsupplier",
+    element: <NewSupplier />
   },
   {
     path: "/users/:userId",

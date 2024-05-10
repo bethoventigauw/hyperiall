@@ -195,10 +195,12 @@ const Sidebar = () => {
           </Link>
 
           {/* Profiles */}
-          <li>
-            <ManageAccountsOutlinedIcon className="icon" />
-            <span>Profile</span>
-          </li>
+          <Link to = "/">
+            <li>
+              <ManageAccountsOutlinedIcon className="icon" />
+              <span>Profile</span>
+            </li>
+          </Link>
 
           {/* Logout */}
           <Link to="/login" style={{ textDecoration: "none" }}>

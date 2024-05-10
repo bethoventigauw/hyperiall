@@ -22,7 +22,7 @@ const Porder = () => {
                         <div className='tableOrder'>
                             <span>Order</span>
                             <div className='addProduct'>
-                                <Button variant="contained">Add Product</Button>
+                                <Button variant="contained">New Order</Button>
                             </div>
                             <Order/>
                         </div>

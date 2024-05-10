@@ -76,24 +76,6 @@ const data = [
     type : 'Not Taking Return',
     otw : 20,
   },
-  {
-    key: '4',
-    suppName: 'Younglex',
-    product: 'Yogs',
-    conNumb: 4138723166,
-    email: 'youngwildnfree@gmail.com',
-    type : 'Taking Return',
-    otw : 6,
-  },
-  {
-    key: '5',
-    suppName: 'Charin',
-    product: 'Knauf',
-    conNumb: 9267545457,
-    email: 'charin@gmail.com',
-    type : 'Not Taking Return',
-    otw : 11,
-  },
 ];
 
 const App = () => 

@@ -21,7 +21,7 @@ const New = ({ inputs, title }) => {
               src={
                 file
                   ? URL.createObjectURL(file)
-                  : "/assets/person/DefaultProfile.jpg"
+                  : "/assets/person/add_icon.jpg"
               }
               alt=""
               className="image"
@@ -51,7 +51,6 @@ const New = ({ inputs, title }) => {
                   />
                 </div>
               ))}
-
               <button type="submit">Send</button>
             </form>
           </div>

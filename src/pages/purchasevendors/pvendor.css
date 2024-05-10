@@ -38,8 +38,8 @@
     color: #333;
 }
 
-.addSupplier {
+.addSupplier{
     display: grid;
-    justify-content:end ;
+    justify-content: end;
     padding: 5px;
 }
