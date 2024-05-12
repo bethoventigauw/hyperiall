@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Table, Button, Modal, Form, Input, DatePicker } from 'antd';
 import './AddPOrderForm.css'
+import { createOrder } from './OrderUtils.js';
 
 const columns = [
   {
@@ -33,23 +34,27 @@ const columns = [
     dataIndex: 'status',
     key: 'status',
     render: status => {
-      let color;
-      switch (status.toLowerCase()) {
-        case 'delayed':
-          color = 'green';
-          break;
-        case 'out of delivery':
-          color = 'red';
-          break;
-        case 'confirmed':
-          color = 'blue';
-          break;
-        default:
-          color = 'inherit'; // jika status tidak cocok, gunakan warna default
+      if (status) {
+        let color;
+        switch (status.toLowerCase()) {
+          case 'delayed':
+            color = 'green';
+            break;
+          case 'out of delivery':
+            color = 'red';
+            break;
+          case 'confirmed':
+            color = 'blue';
+            break;
+          default:
+            color = 'inherit'; // jika status tidak cocok, gunakan warna default
+        }
+        return <p style={{ color }}>{status}</p>;
+      } else {
+        return null; // Jika status tidak tersedia, tidak ada yang perlu dirender
       }
-      return <p style={{ color }}>{status}</p>;
-    },
   },
+},
 ];
 
 const AddProductForm = ({ visible, onCreate, onCancel }) => {
@@ -67,6 +72,7 @@ const AddProductForm = ({ visible, onCreate, onCancel }) => {
           .validateFields()
           .then(values => {
             form.resetFields();
+            values.expectedDelivery = values.expectedDelivery.format('YYYY-MM-DD');
             onCreate(values);
           })
           .catch(info => {
@@ -115,16 +121,18 @@ const AddProductForm = ({ visible, onCreate, onCancel }) => {
   );
 };
 
+
 const AddPOrderForm = () => {
   const [visible, setVisible] = useState(false);
   const [data, setData] = useState([]);
 
   const onCreate = values => {
+    const order = createOrder(values);
     setData([
       ...data,
       {
         key: (data.length + 1).toString(),
-        ...values,
+        ...order,
       },
     ]);
     setVisible(false);
