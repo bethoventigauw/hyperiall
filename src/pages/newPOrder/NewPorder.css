@@ -1,0 +1,31 @@
+.newTableOrder{
+    display: flex;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .newTableOrderContainer{
+    flex: 6;
+  }
+  
+  .newTableOrderForm {
+    display: grid;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .newTableOrderForm h1 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: block;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .newTableOrderForm {
+      width: 80%;
+    }
+  }
+  

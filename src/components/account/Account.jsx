@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './account.css'
 import {
   AutoComplete,
   Button,
@@ -297,6 +298,7 @@ const App = () => {
         {...tailFormItemLayout}
       >
       </Form.Item>
+      <Button className ="updateBtn" variant="contained">Update</Button>
     </Form>
   );
 };

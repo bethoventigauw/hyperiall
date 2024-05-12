@@ -14,6 +14,7 @@ import Pvendor from "./pages/purchasevendors/Pvendor";
 import Settings from "./pages/settings/Settings";
 import Porder from "./pages/purchaseorders/Porder";
 import NewSupplier from "./pages/newSupplier/NewSupplier";
+import NewPOrder from "./pages/newPOrder/NewPOrder";
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
   {
     path : "/addsupplier",
     element: <NewSupplier />
+  },
+  {
+    path : "/addorder",
+    element: <NewPOrder />
   },
   {
     path: "/users/:userId",

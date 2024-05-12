@@ -5,6 +5,7 @@ import Order from '../../components/order/Order'
 import Overall from '../../components/overallorder/Overall';
 import './porder.css'
 import Button from '@mui/material/Button';
+import { Link } from 'react-router-dom';
 
 const Porder = () => {
     return (
@@ -22,7 +23,9 @@ const Porder = () => {
                         <div className='tableOrder'>
                             <span>Order</span>
                             <div className='addProduct'>
-                                <Button variant="contained">New Order</Button>
+                                <Link to = "/addorder" style={{ textDecoration: "none" }}>
+                                    <Button variant="contained">New Order</Button>
+                                </Link>
                             </div>
                             <Order/>
                         </div>
