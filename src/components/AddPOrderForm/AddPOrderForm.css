@@ -1,0 +1,32 @@
+/* CSS for Add Product Form */
+.ant-modal-content {
+    border-radius: 8px;
+  }
+  
+  .ant-modal-header {
+    border-bottom: none;
+  }
+  
+  .ant-modal-footer {
+    border-top: none;
+  }
+  
+  .ant-modal-body {
+    padding: 24px;
+  }
+  
+  .ant-form-item {
+    margin-bottom: 16px;
+  }
+  
+  /* CSS for Table */
+  .ant-table {
+    margin-top: 24px;
+  }
+  
+  /* Optional: Add some padding to table cells */
+  .ant-table td,
+  .ant-table th {
+    padding: 12px;
+  }
+  

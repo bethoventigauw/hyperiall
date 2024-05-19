@@ -6,7 +6,7 @@ import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
-import "./list.css";
+import "./list.scss";
 
 const rows = [
   {
@@ -62,7 +62,7 @@ const rows = [
   {
     id: 4520015619,
     product: "Pipa Paralon",
-    img: "/assets/pipa.jpg",
+    img: "/assets/pipa.webp",
     customer: "Hadi Sunaryo",
     date: "20th March",
     amount: 1800,

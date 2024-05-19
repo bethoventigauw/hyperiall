@@ -1,0 +1,45 @@
+.purchasevend{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.vendorscontainer{
+    flex: 6;
+    background-color: whitesmoke;
+    color: #616161;
+}
+
+.vendorstable{
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+    padding: 20px;
+    margin-top:20px;
+}                
+
+.vendorstable span {
+    font-size: 24px;
+    color: #333;
+}
+
+.datavend{
+    width: 100%;
+    font-size: 24px;
+    color: #616161;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.datavend span{
+    font-size: 30px;
+    font-weight: bold; 
+    color: #333;
+}
+
+.addSupplier{
+    display: grid;
+    justify-content: end;
+    padding: 5px;
+}

@@ -13,12 +13,12 @@ const Product = () => {
         <Navbar />
         <div className="productList">
           <div className="datatableTitle">
-            <span>Add New Material</span>
+            <span>All Materials</span>
             <Link
               to="/products/productId/new"
               style={{ textDecoration: "none" }}
             >
-              <span className="link">Add New </span>
+              <span className="link">Add New Material</span>
             </Link>
           </div>
           <Productable />

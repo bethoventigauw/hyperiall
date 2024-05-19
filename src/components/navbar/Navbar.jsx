@@ -6,7 +6,7 @@ import NotificationsActiveOutlinedIcon from "@mui/icons-material/NotificationsAc
 import ChatBubbleOutlineOutlinedIcon from "@mui/icons-material/ChatBubbleOutlineOutlined";
 import ListOutlinedIcon from "@mui/icons-material/ListOutlined";
 import Switch from "@mui/material/Switch";
-import "./navbar.css";
+import "./navbar.scss";
 import { DarkModeContext } from "../../context/darkModeContext";
 
 const Navbar = () => {
@@ -45,7 +45,7 @@ const Navbar = () => {
             <ListOutlinedIcon className="icon" />
           </div>
           <div className="item">
-            <img src="/assets/profileb.jpg" alt="" className="profileImg" />
+            <img src="/assets/navbarprofile.jpg" alt="" className="profileImg" />
           </div>
         </div>
       </div>
