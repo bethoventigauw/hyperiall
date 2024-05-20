@@ -1,0 +1,31 @@
+.vendorstable {
+    margin-top: 20px; /* Memberikan jarak atas dari elemen sebelumnya */
+  }
+  
+  .tablecontainer {
+    max-width: 100%; /* Membuat tabel responsif */
+  }
+  
+  .tablecell {
+    font-weight: bold; /* Membuat teks pada sel tabel menjadi tebal */
+  }
+  
+  /* Memberikan warna latar belakang dan teks pada header tabel */
+  .MuiTableHead-root {
+    background-color: #f0f0f0;
+  }
+  
+  .MuiTableCell-head {
+    color: #333;
+  }
+  
+  /* Memberikan warna latar belakang dan teks pada sel tabel */
+  .MuiTableRow-root:nth-of-type(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Menghilangkan garis pada baris terakhir tabel */
+  .MuiTable-root .MuiTableRow-root:last-child td {
+    border-bottom: none;
+  }
+  

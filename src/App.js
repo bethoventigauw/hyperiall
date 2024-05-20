@@ -10,6 +10,11 @@ import { userInputs, productInputs } from "./formData";
 import "./style/dark.scss";
 import { useContext } from "react";
 import { DarkModeContext } from "./context/darkModeContext";
+import Pvendor from "./pages/purchasevendors/Pvendor";
+import Settings from "./pages/settings/Settings";
+import Porder from "./pages/purchaseorders/Porder";
+import NewSupplier from "./pages/newSupplier/NewSupplier";
+import NewPOrder from "./pages/newPOrder/NewPOrder";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +24,18 @@ const router = createBrowserRouter([
   {
     path: "/login",
     element: <Login />,
+  },
+  {
+    path : "/vendor",
+    element: <Pvendor />
+  },
+  {
+    path : "/addsupplier",
+    element: <NewSupplier />
+  },
+  {
+    path : "/addorder",
+    element: <NewPOrder />
   },
   {
     path: "/users/:userId",
@@ -35,6 +52,14 @@ const router = createBrowserRouter([
   {
     path: "/inventory",
     element: <Product />,
+  },
+  {
+    path: "/orders",
+    element: <Porder />,
+  },
+  {
+    path: "/settings",
+    element: <Settings />,
   },
   {
     path: "/users/:userId/new",
