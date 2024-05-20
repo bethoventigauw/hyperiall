@@ -14,7 +14,7 @@ export const rows = [
     img: "/assets/besibeton.jpg",
     product: "Besi Beton 10mm",
     brands: "KPS Steel",
-    price: "Rp.500.000",
+    price: 50000,
     stock: "in stock",
     addtoCart: "Add to cart",
   },
@@ -23,7 +23,7 @@ export const rows = [
     img: "/assets/pakubeton.jpg",
     product: "Paku Beton 5mm (50pcs)",
     brands: "Kenmaster",
-    price: "Rp.50.000",
+    price: 50000,
     stock: "in stock",
     addtoCart: "Add to cart",
   },
@@ -32,43 +32,7 @@ export const rows = [
     img: "/assets/batubata.jpg",
     product: "Batu Bata (80x80x210mm)",
     brands: "BATA",
-    price: "Rp.75.000",
-    stock: "in stock",
-    addtoCart: "Add to cart",
-  },
-  {
-    partNumber: "31CTWTB2",
-    img: "/assets/keramik.jpg",
-    product: "Keramik Lantai 30x30cm",
-    brands: "KIA",
-    price: "Rp.80.000",
-    stock: "in stock",
-    addtoCart: "Add to cart",
-  },
-  {
-    partNumber: "HRDDR3055",
-    img: "/assets/pipa.jpg",
-    product: "Pipa PVC 8 inci",
-    brands: "Lifelon",
-    price: "Rp.65.000",
-    stock: "in stock",
-    addtoCart: "Add to cart",
-  },
-  {
-    partNumber: "FGH543",
-    img: "/assets/semen.jpg",
-    product: "Semen 50kg",
-    brands: "Semen Gresik",
-    price: "Rp.100.000",
-    stock: "in stock",
-    addtoCart: "Add to cart",
-  },
-  {
-    partNumber: "YABYBX3055",
-    img: "/assets/kayumahoni.jpg",
-    product: "Kayu Mahoni 34x2cm 4pcs",
-    brands: "Barrington",
-    price: "Rp.120.000",
+    price: 750000,
     stock: "in stock",
     addtoCart: "Add to cart",
   },
@@ -99,11 +63,19 @@ const Productable = () => {
                   </div>
                 </TableCell>
                 <TableCell className="tableCell">{row.brands}</TableCell>
-                <TableCell className="tableCell">{row.price}</TableCell>
+                <TableCell className="tableCell">
+                  {new Intl.NumberFormat("id-ID", {
+                    style: "currency",
+                    currency: "IDR"
+                  }).format(row.price)}
+                </TableCell>
                 <TableCell className="tableCell">{row.stock}</TableCell>
                 <TableCell className="tableCell">
                   <span> {row.addtoCart}</span>
                 </TableCell>
+                {/* <TableCell className="tableCell">
+                  <span className={`status ${row.status}`}>{row.status}</span>
+                </TableCell> */}
               </TableRow>
             ))}
           </TableBody>

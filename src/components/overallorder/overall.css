@@ -1,0 +1,45 @@
+.orderCard {
+    margin-top: 20px; /* Memberikan jarak atas dari elemen sebelumnya */
+}
+
+/* Menyesuaikan lebar setiap Card */
+.ant-card {
+    width: 100%;
+    border-radius: 8px; /* Memberikan sudut yang lebih lembut */
+}
+
+/* Mengatur warna latar belakang dan teks judul di dalam Card */
+.ant-card-head {
+    background-color: #1890ff; /* Warna latar belakang judul */
+    color: white; /* Warna teks judul */
+    border-radius: 8px 8px 0 0; /* Memberikan sudut yang lebih lembut hanya di bagian atas */
+}
+
+/* Mengatur ukuran teks dan jarak antar elemen dalam Card */
+.ant-card-body {
+    padding: 20px; /* Memberikan jarak antara konten dengan batas Card */
+}
+
+/* Mengatur warna dan ukuran teks pada data angka */
+.ant-card-body p:first-child {
+    color: #1890ff; /* Warna teks untuk angka */
+    font-size: 24px; /* Ukuran font untuk angka */
+    margin-bottom: 5px; /* Memberikan jarak bawah dari angka ke keterangan waktu */
+}
+
+/* Mengatur ukuran teks dan warna untuk keterangan waktu */
+.ant-card-body p:last-child {
+    color: #999; /* Warna teks untuk keterangan waktu */
+    font-size: 14px; /* Ukuran font untuk keterangan waktu */
+    margin: 0; /* Menghapus margin agar tidak ada jarak antara elemen */
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between; /* Membuat dua kolom konten berada pada jarak yang sama di dalam Card */
+}
+  
+.content-column {
+    text-align: center;
+}
+  

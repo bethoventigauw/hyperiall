@@ -2,30 +2,34 @@
     flex: 1;
     min-height: 100vh;
     border-right: 0.5px solid lightgray;
-    background-color: #1B262C;
+    background-color: #1b262c;
   }
   
-  .top {
+  .sidebar .top {
     display: flex;
     height: 50px;
     align-items: center;
     justify-content: center;
   }
   
-  .logo {
+  .sidebar .top .logo {
     font-size: 20px;
     font-weight: bold;
-    color: #BBE1FA;
-    margin-left: 20px;
+    color: #bbe1fa;
+    margin-left: 50px;
   }
   
-  .bottom ul {
+  .sidebar .bottom {
+    padding-left: 10px;
+  }
+  
+  .sidebar .bottom ul {
     list-style: none;
     margin: 0;
     padding: 0;
   }
   
-  .bottom ul .title {
+  .sidebar .bottom ul .title {
     font-size: 14px;
     font-weight: bold;
     color: #616161;
@@ -33,68 +37,60 @@
     margin-bottom: 5px;
   }
   
-  .bottom ul li {
+  .sidebar .bottom ul li {
     display: flex;
     align-items: center;
     padding: 15px;
     cursor: pointer;
-    position: relative; 
   }
   
-  .bottom ul li:hover {
+  .sidebar .bottom ul li:hover {
     background-color: #275370;
     border-radius: 10px;
   }
   
-  .bottom ul li .icon {
+  .sidebar .bottom ul .icon {
     font-size: 22px;
-    color: #BBE1FA;
+    color: #bbe1fa;
   }
   
-  .bottom ul li span {
+  .sidebar .bottom ul span {
     font-size: 15px;
     font-weight: 300;
-    color: #BBE1FA;
+    color: #bbe1fa;
     margin-left: 15px;
     margin-right: 15px;
   }
   
-  .menu-item {
-    cursor: pointer;
+  /* Dropdown styles */
+  .sidebar .bottom ul .dropdown {
+    position: relative;
   }
   
-  .menu-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .expand-icon {
-    color: #BBE1FA;
-  }
-  
-  .sub-menu {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    top: 100%; 
-    left: 0;
-    z-index: 1;
-    background-color: #1B262C;
-    display: none; 
-  }
-  
-  .sub-menu li {
-    padding: 10px 0;
-  }
-  
-  .sub-menu li span {
-    font-size: 15px;
-    font-weight: 300;
-    color: #BBE1FA;
-  }
-  
-  .active .sub-menu {
+  .sidebar .bottom ul .dropdown:hover .submenu {
     display: block;
+  }
+  
+  .sidebar .bottom ul .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #275370;
+    border-radius: 10px;
+    padding: 10px;
+    z-index: 1;
+  }
+  
+  .sidebar .bottom ul .submenu li {
+    padding: 8px 15px;
+  }
+  
+  .sidebar .bottom ul .submenu li:hover {
+    background-color: #1b6ca8;
+    border-radius: 8px;
+  }
+  
+  .dropdown-icon{
+    color:whitesmoke;
   }

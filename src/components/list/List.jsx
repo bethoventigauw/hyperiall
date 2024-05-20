@@ -61,9 +61,9 @@ const rows = [
   },
   {
     id: 4520015619,
-    product: "Pipa Paralon",
-    img: "/assets/pipa.jpg",
-    customer: "Hadi Sunaryo",
+    product: "Apple Iphone 14 Pro Max",
+    img: "/assets/iphone.webp",
+    customer: "Camila Michael",
     date: "20th March",
     amount: 1800,
     method: "Cash on Delivery",
