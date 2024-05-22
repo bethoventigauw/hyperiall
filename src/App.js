@@ -2,7 +2,6 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./pages/home/Home";
 import Single from "./pages/single/Single";
 import New from "./pages/new/New";
-import Register from "./pages/register/Register";
 import Login from "./pages/login/Login";
 import Product from "./pages/product/Product";
 import Customers from "./pages/customers/Customers";
@@ -15,6 +14,8 @@ import Settings from "./pages/settings/Settings";
 import Porder from "./pages/purchaseorders/Porder";
 import NewSupplier from "./pages/newSupplier/NewSupplier";
 import NewPOrder from "./pages/newPOrder/NewPOrder";
+import Psales from "./pages/ psales/Sales";
+import Packages from "./pages/packages/Packages";
 
 const router = createBrowserRouter([
   {
@@ -58,6 +59,14 @@ const router = createBrowserRouter([
     element: <Porder />,
   },
   {
+    path: "/Order",
+    element: <Psales />,
+  },
+  {
+    path: "/Packages",
+    element: <Packages />,
+  },
+  {
     path: "/settings",
     element: <Settings />,
   },
@@ -68,11 +77,6 @@ const router = createBrowserRouter([
   {
     path: "/products/:productId/new",
     element: <New inputs={productInputs} title={"Add New Product"} />,
-  },
-
-  {
-    path: "/register",
-    element: <Register />,
   },
   {
     path: "/home",

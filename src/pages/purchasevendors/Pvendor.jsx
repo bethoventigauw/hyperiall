@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 import Button from '@mui/material/Button';
 
 const Pvendor = () => {
-    return (
+    return ( 
         <div>
             <div className='purchasevend'>
                 <Sidebar/>

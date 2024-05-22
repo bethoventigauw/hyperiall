@@ -3,7 +3,7 @@ import Sidebar from "../../components/sidebar/Sidebar";
 import Navbar from "../../components/navbar/Navbar";
 import Chart from "../../components/chart/Chart";
 import List from "../../components/list/List";
-import "./single.scss";
+import "./single.css";
 
 const Single = () => {
   return (
@@ -17,25 +17,25 @@ const Single = () => {
             <span className="editButton">Edit</span>
 
             <div className="item">
-              <img src="/assets/person.jpg" alt="" className="itemImg" />
+              <img src="/assets/profileb.jpg" alt="" className="itemImg" />
 
               <div className="details">
-                <h1 className="itemTitle">Olivia White</h1>
+                <h1 className="itemTitle">Mauricio Bethoven</h1>
                 <div className="detailItem">
                   <span className="itemkey">Email: </span>
-                  <span className="itemValue">olivia@gmail.com</span>
+                  <span className="itemValue">betho@gmail.com</span>
                 </div>
                 <div className="detailItem">
                   <span className="itemkey">Phone: </span>
-                  <span className="itemValue">+4 123-234-45</span>
+                  <span className="itemValue">081255317201</span>
                 </div>
                 <div className="detailItem">
                   <span className="itemkey">Address: </span>
-                  <span className="itemValue">Melwook Str. 24 Liverpool</span>
+                  <span className="itemValue">Bandung, Jawa Barat, Indonesia</span>
                 </div>
                 <div className="detailItem">
                   <span className="itemkey">Country: </span>
-                  <span className="itemValue">United Kingdom</span>
+                  <span className="itemValue">Indonesia</span>
                 </div>
               </div>
             </div>
