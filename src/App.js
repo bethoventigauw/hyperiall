@@ -14,6 +14,8 @@ import Settings from "./pages/settings/Settings";
 import Porder from "./pages/purchaseorders/Porder";
 import NewSupplier from "./pages/newSupplier/NewSupplier";
 import NewPOrder from "./pages/newPOrder/NewPOrder";
+import Psales from "./pages/ psales/Sales";
+import Packages from "./pages/packages/Packages";
 
 const router = createBrowserRouter([
   {
@@ -55,6 +57,14 @@ const router = createBrowserRouter([
   {
     path: "/orders",
     element: <Porder />,
+  },
+  {
+    path: "/Order",
+    element: <Psales />,
+  },
+  {
+    path: "/Packages",
+    element: <Packages />,
   },
   {
     path: "/settings",
