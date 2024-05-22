@@ -1,0 +1,11 @@
+.packages{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.packagescontainer{
+    flex: 6;
+    background-color: whitesmoke;
+    color: #616161;
+}
