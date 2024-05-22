@@ -16,6 +16,7 @@ import NewSupplier from "./pages/newSupplier/NewSupplier";
 import NewPOrder from "./pages/newPOrder/NewPOrder";
 import Psales from "./pages/ psales/Sales";
 import Packages from "./pages/packages/Packages";
+import LandingPage from "./pages/landingPage/LandingPage";
 
 const router = createBrowserRouter([
   {
@@ -82,6 +83,10 @@ const router = createBrowserRouter([
     path: "/home",
     element: <Home />,
   },
+  {
+    path: "LandingPage",
+    element: <LandingPage />
+  }
 ]);
 
 function App() {

@@ -25,6 +25,9 @@ const LandingPage = () => {
               <Link to="/home">
                 <button type="submit">Login</button>
               </Link>
+              <Link to="/LandingPage">
+                <button type="landing test">LandingPage</button>
+              </Link>
             </div>
             <div className="forgot-password">Forgot Password?<span>Click Here!</span></div>
           </div>
