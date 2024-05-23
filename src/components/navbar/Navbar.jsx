@@ -6,7 +6,7 @@ import NotificationsActiveOutlinedIcon from "@mui/icons-material/NotificationsAc
 import ChatBubbleOutlineOutlinedIcon from "@mui/icons-material/ChatBubbleOutlineOutlined";
 import ListOutlinedIcon from "@mui/icons-material/ListOutlined";
 import Switch from "@mui/material/Switch";
-import "./navbar.scss";
+import "./navbar.css";
 import { DarkModeContext } from "../../context/darkModeContext";
 
 const Navbar = () => {
